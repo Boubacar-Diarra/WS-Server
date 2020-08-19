@@ -12,4 +12,8 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Pkgpublish-module Condition=" '$(Pkgpublish-module)' == '' ">C:\Users\diarr\.nuget\packages\publish-module\1.1.1</Pkgpublish-module>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\diarr\.nuget\packages\awssdk.core\3.3.107.38</PkgAWSSDK_Core>
+  </PropertyGroup>
 </Project>

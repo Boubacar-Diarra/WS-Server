@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\diarr\\source\\repos\\WS2\\WS-Server\\WS2\\WS2.csproj",
+    "projectUniqueName": "C:\\Users\\diarr\\Desktop\\Stage2\\WS-Server-master\\WS2\\WS2.csproj",
     "projectName": "WS2",
-    "projectPath": "C:\\Users\\diarr\\source\\repos\\WS2\\WS-Server\\WS2\\WS2.csproj",
-    "outputPath": "C:\\Users\\diarr\\source\\repos\\WS2\\WS-Server\\WS2\\obj\\",
+    "projectPath": "C:\\Users\\diarr\\Desktop\\Stage2\\WS-Server-master\\WS2\\WS2.csproj",
+    "outputPath": "C:\\Users\\diarr\\Desktop\\Stage2\\WS-Server-master\\WS2\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -27,9 +27,21 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "AWSSDK.Core": {
+          "target": "Package",
+          "version": "[3.3.107.38, )"
+        },
+        "DotnetPublishSsh": {
+          "target": "Package",
+          "version": "[0.1.0, )"
+        },
         "MongoDB.Driver": {
           "target": "Package",
           "version": "[2.10.4, )"
+        },
+        "publish-module": {
+          "target": "Package",
+          "version": "[1.1.1, )"
         }
       },
       "imports": [
@@ -50,7 +62,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
     }
   }
 }
